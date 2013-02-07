@@ -9,6 +9,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+   
+/* IE Box Model */
+
+* { -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box; }
 
 html,
 button,
@@ -21,6 +27,18 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+}
+
+a {
+    color: #00e;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #06e;
 }
 
 /*
@@ -78,6 +96,15 @@ textarea {
     resize: vertical;
 }
 
+/* No margins on lists! */
+
+dl,
+menu,
+ol,
+ul {
+    margin: 0;
+}
+
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
@@ -129,7 +156,7 @@ textarea {
     content: "";
     display: block;
     width: 0;
-    height: 150%;
+    height: 100%;
 }
 
 /*
@@ -191,22 +218,21 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+.cf:before,
+.cf:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
 
-.clearfix:after {
+.cf:after {
     clear: both;
 }
 
-/*
+/**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-
-.clearfix {
+.cf {
     *zoom: 1;
 }
 
@@ -220,10 +246,8 @@ textarea {
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -236,7 +260,7 @@ textarea {
     * {
         background: transparent !important;
         color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
+        box-shadow:none !important;
         text-shadow: none !important;
     }
 
