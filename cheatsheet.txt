@@ -1,0 +1,82 @@
+<?php bloginfo( $show ); ?> |  <?php bloginfo( 'template_url' ); ?> 
+	OPTIONS
+	name                 = Testpilot
+	description          = Just another WordPress blog
+	url                  = http://example/home    [use home_url('/') instead]
+	template_url         = http://example/home/wp/wp-content/themes/parent-theme
+	atom_url             = http://example/home/feed/atom
+	rss2_url             = http://example/home/feed
+
+<?php the_content( $more_link_text, $stripteaser ); ?> ......................Displays the Content......................example: <?php the_content('Read more...'); ?>
+	NOTE: $Stripteaser is content before the "read more" link
+
+<?php the_title( $before, $after, $echo ); ?> ...............................Displays the posts/pages title......................example: <?php the_title('h2', 'h2') ?>
+	OPTIONS
+	name                 = Testpilot
+	description          = Just another WordPress blog
+	url                  = http://example/home    [use home_url('/') instead]
+	template_url         = http://example/home/wp/wp-content/themes/parent-theme
+	atom_url             = http://example/home/feed/atom
+	rss2_url             = http://example/home/feed
+
+<?php the_excerpt() ?> ....Displays the excerpt of the current post/page
+
+<?php the_time() ?> ..........Displays the time of the current post/page
+
+<?php the_date() ?> .....Displays the date of a post or set of post/page
+
+<?php the_permalink() ?> .............Displays the URL for the permalink
+
+<?php the_category() ?> .................Displays the category of a post
+
+<?php the_author(); ?> ..................Displays the author of the post
+
+<?php the_ID(); ?> ..........Displays the numeric ID of the current post
+
+<?php wp_list_pages(); ?> ........................Displays all the pages
+
+<?php wp_tag_cloud(); ?> ...........................Displays a tag cloud
+
+<?php wp_list_cats(); ?> ........................Displays the categories
+
+<?php get_calendar(); ?> ..........................Displays the calendar
+
+<?php wp_get_archives() ?> ..........Displays a date-based archives list
+
+<?php posts_nav_link(); ?> ...Displays Previous page and Next Page links
+
+<?php next_post_link() ?> .....................Displays Newer Posts link
+
+<?php previous_post_link() ?> ....................Displays previous link
+
+<?php edit_post_link(__('Edit Post')); ?> ........Displays the edit link
+
+<?php the_search_query();?> ................Value for search form
+
+<?php wp_register();?> ................Displays the register link
+
+<?php wp_loginout();?> ..............Displays the log in/out link
+
+<?php wp_meta();?> .......................Meta for administrators
+
+<?php timer_stop(1);?> .....................Time to load the page
+
+<?php echo c2c_custom('test');?> ...... Displays the custom field
+
+<?php get_links_list(); ?> ...........Display links from Blogroll
+
+<?php get_calendar(); ?> ..........Displays the built-in calendar
+
+<?php comments_popup_link(); ?> .......Link of the posts comments
+
+is_home()  .......................When the user is on the blog home page
+
+is_front_page()  ......................When the user is on the home page
+
+is_single() ..............................When the single post displayed
+
+is_sticky()  ..................................Check if a post is sticky
+
+is_page()  .....................................When a page is displayed
+
+is_category() ..............................When a category is displayed
