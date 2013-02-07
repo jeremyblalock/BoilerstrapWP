@@ -1,7 +1,9 @@
 Boilerpress
 ===============================
 
-This theme is built upon [HTML5 Boilerplate for Wordpress](https://github.com/zencoder/html5-boilerplate-for-wordpress). It started as a fork, then as I was diverging from it more and more I decided to create a dedicated repository. Credits for most of the php code here doesn't go to me (akmur) but rather to the original theme's creator. This theme is built on the [HTML5 Boilerplate](http://html5boilerplate.com/) by Paul Irish and Divya Manian. 
+This theme is built upon [HTML5 Boilerplate for Wordpress](https://github.com/zencoder/html5-boilerplate-for-wordpress). It started as a fork, then as I was diverging from it more and more I decided to create a dedicated repository. Credits for most of the php code here doesn't go to me (Alex Muraro) but rather to the original theme's creator. This theme is built on the [HTML5 Boilerplate](http://html5boilerplate.com/) by Paul Irish and Divya Manian. 
+
+Note: I have included a copy of the latest html5 repository for reference, but no theme files link to any of its content.
 
 Boilerpress uses some opinionated settings you should be aware of: 
 1. IE Box Model (padding does not change boxes' dimensions).
