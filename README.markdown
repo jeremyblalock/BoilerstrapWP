@@ -1,7 +1,15 @@
-HTML5 Boilerplate for Wordpress
+Boilerpress
 ===============================
 
-This theme is built on the [HTML5 Boilerplate](http://html5boilerplate.com/) by Paul Irish and Divya Manian. The sole purpose of this theme is to save developers the time it takes to apply the HTML5 Boilerplate to WordPress. The "HTML5 Boilerplate" name is used with permission from Paul Irish.
+This theme is built upon [HTML5 Boilerplate for Wordpress](https://github.com/zencoder/html5-boilerplate-for-wordpress). It started as a fork, then as I was diverging from it more and more I decided to create a dedicated repository. Credits for most of the php code here doesn't go to me (akmur) but rather to the original theme's creator. This theme is built on the [HTML5 Boilerplate](http://html5boilerplate.com/) by Paul Irish and Divya Manian. 
+
+Boilerpress uses some opinionated settings you should be aware of: 
+1. IE Box Model (padding does not change boxes' dimensions).
+2. Lists have no margin
+3. Some useful snippets have been added to functions.php (mainly for menus, featured images)
+4. Javascript libraries' names have been changed, by removing the file version. This makes for easy copy/paste of new or different versions of the files, without having to rename.
+
+The sole purpose of this theme is to save developers the time it takes to apply the HTML5 Boilerplate to WordPress. The "HTML5 Boilerplate" name is used with permission from Paul Irish.
 
 The layout is based on Bruce Lawson's [Designing a Blog with HTML5](http://html5doctor.com/designing-a-blog-with-html5/)
 
@@ -12,8 +20,6 @@ Instead of using only DIVs for content layout, it uses new HTML5 tags, including
 and [section](http://html5doctor.com/the-section-element/).
 
 It's a very bare layout, including only the base styles that come with the boilerplate and required WordPress styles, so layout is up to you. Alternatively, you could apply the methods used here to other themes.
-
-I am keeping this up-to-date with current html5 boilerplate files.
 
 Getting Started
 ---------------
