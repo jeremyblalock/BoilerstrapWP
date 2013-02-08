@@ -29,6 +29,40 @@ body {
     line-height: 1.4;
 }
 
+@font-face {
+    font-family: 'Sosa';
+    src: url('../fonts/sosa.eot');
+    src: url('../fonts/sosa.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sosa.woff') format('woff'),
+         url('../fonts/sosat.ttf') format('truetype'),
+         url('../fonts/sosa.svg#sosa') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon-lg,
+.icon-sm {
+    color: #b3b3b3;
+    display: inline-block;
+    font-family: "Sosa";
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+.icon-sm {
+    height: 1em;
+    font-size: 0.875em;
+    line-height: 1em;
+    width: 1em;
+}
+.icon-lg {
+    height: 1.5em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    width: 1.5em;
+}
+
 a {
     color: #00e;
 }
