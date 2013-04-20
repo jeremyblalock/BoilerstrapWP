@@ -21,7 +21,7 @@ Getting Started
 ---------------
 1. Install Ruby on your systen if you haven't already. Once it's installed, install SASS (gem install sass).
 2. Add the boilerpress folder to your wp-content/themes folder.
-3. Create a first version of your stylesheets by opening the command line, switching to the "styles" folder inside this theme, and finally by issuing the command "sass --watch custom.scss:custom.css --style compressed"
+3. Create a first version of your stylesheets by opening the command line, switching to the "styles" folder inside this theme, and finally by issuing the command "sass --watch custom.scss:custom.css --style compressed". This way each time you change any of the scss files, custom.scss will be overwritten.
 4. Activate the theme. WP-Admin > Appearance > Themes
 5. Add some of the "Root Files" to the root directory of your website (explained below).
 6. Style away, knowing that you're building on a super solid base with HTML5 awesomeness.
