@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage HTML5_Boilerplate
+ * @subpackage Boilerpress
  */
 ?>
 <!DOCTYPE html>
@@ -22,16 +22,12 @@
     <meta name="viewport" content="width=device-width">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-    <!-- normalize is used to reset styles, and main.css user styles.  Warning: main.css contains the IE box Model http://www.jefftk.com/news/2012-02-18 and no margins on ul-->
-    <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."css/normalize.css") ?>
-    <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."css/main.css") ?>
     
     <!-- Wordpress Templates require a style.css in theme root directory -->
     <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."style.css") ?>
     
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-    <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/vendor/modernizr.min.js") ?>
+    <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/vendor/modernizr-2.6.2-respond-1.1.0.min.js") ?>
 
     <!-- Wordpress Head Items -->
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />

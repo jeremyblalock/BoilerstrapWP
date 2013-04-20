@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage HTML5_Boilerplate
+ * @subpackage Boilerpress
  */
 ?>
 <aside id="sidebar">

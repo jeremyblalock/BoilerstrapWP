@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage HTML5_Boilerplate
+ * @subpackage Boilerpress
  */
 
 // Do not delete these lines

@@ -1,15 +1,9 @@
-Boilerpress
+RBoilerpress
 ===============================
 
-This theme is built upon [HTML5 Boilerplate for Wordpress](https://github.com/zencoder/html5-boilerplate-for-wordpress). It started as a fork, then as I was diverging from it more and more I decided to create a dedicated repository. Credits for most of the php code here doesn't go to me (Alex Muraro) but rather to the original theme's creator. This theme is built on the [HTML5 Boilerplate](http://html5boilerplate.com/) by Paul Irish and Divya Manian. 
+This theme is built upon [HTML5 Boilerplate for Wordpress](https://github.com/zencoder/html5-boilerplate-for-wordpress). It started as a fork, then as I was diverging from it more and more I decided to create a dedicated repository. Credits for most of the php code here doesn't go to me (Alex Muraro) but rather to the original theme's creator. This theme is built on the [HTML5 Boilerplate](http://html5boilerplate.com/) by Paul Irish and Divya Manian and also contain Twitter Bootstrap css if you'd like to use it.
 
-Note: I have included a copy of the latest html5 repository for reference, but no theme files link to any of its content.
-
-Boilerpress uses some opinionated settings you should be aware of: 
-1. IE Box Model (padding does not change boxes' dimensions).
-2. Lists have no margin
-3. Some useful snippets have been added to functions.php (mainly for menus, featured images)
-4. Javascript libraries' names have been changed, by removing the file version. This makes for easy copy/paste of new or different versions of the files, without having to rename.
+**Boilerpress** uses [SASS](http://sass-lang.com/) for the stylesheets. There is a custom.scss file that takes care to import various components. With this version of Responsive Boilerpress I have decided to add the option to use **Twitter's Bootstrap**, or the classic HTML5 Boilerplate stylesheets. You find them all in the scss folder, and the choice is up to you.
 
 The sole purpose of this theme is to save developers the time it takes to apply the HTML5 Boilerplate to WordPress. The "HTML5 Boilerplate" name is used with permission from Paul Irish.
 
@@ -25,10 +19,12 @@ It's a very bare layout, including only the base styles that come with the boile
 
 Getting Started
 ---------------
-1. Add the boilerpress folder to your wp-content/themes folder.
-2. Activate the theme. WP-Admin > Appearance > Themes
-3. Add some of the "Root Files" to the root directory of your website (explained below).
-4. Style away, knowing that you're building on a super solid base with HTML5 awesomeness.
+1. Install Ruby on your systen if you haven't already. Once it's installed, install SASS (gem install sass).
+2. Add the boilerpress folder to your wp-content/themes folder.
+3. Create a first version of your stylesheets by opening the command line, switching to the "styles" folder inside this theme, and finally by issuing the command "sass --watch custom.scss:custom.css --style compressed"
+4. Activate the theme. WP-Admin > Appearance > Themes
+5. Add some of the "Root Files" to the root directory of your website (explained below).
+6. Style away, knowing that you're building on a super solid base with HTML5 awesomeness.
 
 Root Files
 ----------
@@ -45,7 +41,7 @@ Tells all search engines that they can read and index all pages. This is handled
 
 Root Images
 -----------
-Included are default HTML5 boilerplate icons
+Included are default HTML5 boilerplate icons, change them with your own.
 
 License
 -------
