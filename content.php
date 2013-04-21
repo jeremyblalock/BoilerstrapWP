@@ -1,5 +1,5 @@
 
-<?php if (is_single()) : ?>
+<?php if (is_single()) { ?>
 
   <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
     <header>
@@ -43,7 +43,7 @@
 
   </article>
 
-<?php else : // the following loop is used if we're not on a single page ?> 
+<?php } else { // the following loop is used if we're not on a single page ?> 
 
   <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
     <header>
@@ -60,4 +60,4 @@
     </footer>
   </article>
 
-<?php endif; // is_single() ?>
+<?php } // end of is_single() ?>

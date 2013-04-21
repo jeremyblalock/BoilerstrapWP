@@ -74,11 +74,4 @@ add_theme_support( 'post-thumbnails' );
 
 add_action( 'init', 'register_my_menus' );
 
-function register_my_menus() {
-  register_nav_menus(
-    array(
-    'menu-1' => __( 'Primary' ),
-    'menu-2' => __( 'Secondary' )
-    )
-  );
-}
+register_nav_menu( 'primary', 'Main Nav' );

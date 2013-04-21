@@ -44,3 +44,9 @@
       <h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
       <p class="description"><?php bloginfo('description'); ?></p>
     </header>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <!-- Just create a custom menu and activate it. It will end up here, with  proper Twitter Bootstrap classes -->
+        <?php wp_nav_menu( array('theme_location' => 'primary', 'menu_class' => 'nav')); ?>
+      </div>
+    </div>
