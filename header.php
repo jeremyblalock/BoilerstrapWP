@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage Boilerpress
+ * @subpackage BoilerstrapWP
  */
 ?>
 <!DOCTYPE html>
@@ -24,7 +24,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     
     <!-- Wordpress Templates require a style.css in theme root directory -->
-    <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."style.css") ?>
+    <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."styles/styles.css") ?>
     
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
     <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/vendor/modernizr-2.6.2-respond-1.1.0.min.js") ?>

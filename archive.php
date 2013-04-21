@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage Boilerpress
+ * @subpackage BoilerstrapWP
  */
 
 get_header(); ?>
@@ -28,10 +28,7 @@ get_header(); ?>
     <h2 class="pagetitle">Blog Archives</h2>
     <?php } ?>
 
-    <nav>
-      <div><?php next_posts_link('&laquo; Older Entries') ?></div>
-      <div><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-    </nav>
+    <?php get_template_part( 'nav' ); ?>
 
     <?php while (have_posts()) : the_post(); ?>
     <article <?php post_class() ?>>
@@ -49,10 +46,7 @@ get_header(); ?>
     </article>
     <?php endwhile; ?>
 
-    <nav>
-      <div><?php next_posts_link('&laquo; Older Entries') ?></div>
-      <div><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-    </nav>
+    ?php get_template_part( 'nav' ); ?>
   </section>
 
   <?php else :
