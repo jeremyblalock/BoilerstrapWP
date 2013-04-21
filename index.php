@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div id="main" role="main">
+<div class="main" role="main">
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
 

@@ -19,8 +19,7 @@
     <meta name="title" content="<?php wp_title('&laquo;', true, 'right'); ?> | <?php bloginfo('name'); ?>">
     <meta name="description" content="<h1><?php bloginfo('name'); ?></h1> | <?php bloginfo('description'); ?>">
     
-    <meta name="viewport" content="width=device-width">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     
     <!-- Wordpress Templates require a style.css in theme root directory -->
