@@ -25,11 +25,6 @@
   <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/vendor/bootstrap.min.js") ?>
   <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/plugins.js") ?>
   <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/main.js") ?>
-
-  <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
-       change the UA-XXXXX-X to be your site's ID -->
-  <!-- WordPress.com does not allow Google Analytics code to be built into themes they host. 
-       Add this section from HTML Boilerplate manually (html5-boilerplate/index.html), or use a Google Analytics WordPress Plugin-->
 	   
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
