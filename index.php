@@ -6,7 +6,8 @@
 
 get_header(); ?>
 
-<div class="main" role="main">
+<div class="row-fluid">
+  <div class="span8">
   <?php if (have_posts()) { ?>
     <?php while (have_posts()) : the_post(); ?>
 
@@ -24,7 +25,7 @@ get_header(); ?>
 
   <?php } ?>
 </div>
-
-<?php get_sidebar(); ?>
-
+<div class="span4">
+  <?php get_sidebar(); ?>
+</div>
 <?php get_footer(); ?>
