@@ -18,7 +18,7 @@ and [section](http://html5doctor.com/the-section-element/).
 
 It's a very bare layout, including only the base styles that come with the boilerplate (and the bootstrap) and required WordPress styles, so layout is up to you.
 
-In functions.php I have registered two custom menus, activated post thumbnails, registered the sidebar.
+In functions.php I have registered a custom menu, activated post thumbnails, registered the sidebar.
 
 As a bonus, cheatsheet.txt contains some useful snippets to make your development faster :D
 
