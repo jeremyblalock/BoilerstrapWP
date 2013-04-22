@@ -20,6 +20,8 @@ It's a very bare layout, including only the base styles that come with the boile
 
 In functions.php I have registered two custom menus, activated post thumbnails, registered the sidebar.
 
+As a bonus, cheatsheet.txt contains some useful snippets to make your development faster :D
+
 Getting Started
 ---------------
 1. Install Ruby on your systen if you haven't already. Once it's installed, install SASS (gem install sass).
