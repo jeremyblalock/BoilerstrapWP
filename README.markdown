@@ -6,7 +6,7 @@ This naked theme is built upon [HTML5 Boilerplate for Wordpress](https://github.
 
 **BoilerstrapWP** uses [SASS](http://sass-lang.com/) for the stylesheets. There is a styles.scss file that takes care of importing the files it needs.
 
-The sole purpose of this theme is to save developers the time it takes to apply the HTML5 Boilerplate to WordPress.
+The purpose of this theme is to save you the time it takes to apply the HTML5 Boilerplate or the Twitter Bootstrap to WordPress.
 
 The layout is based on Bruce Lawson's [Designing a Blog with HTML5](http://html5doctor.com/designing-a-blog-with-html5/)
 
@@ -16,7 +16,7 @@ Instead of using only DIVs for content layout, it uses HTML5 tags, including [he
 [article](http://www.w3schools.com/html5/tag_article.asp), 
 and [section](http://html5doctor.com/the-section-element/).
 
-It's a very bare layout, including only the base styles that come with the boilerplate and required WordPress styles, so layout is up to you. Alternatively, you could apply the methods used here to other themes.
+It's a very bare layout, including only the base styles that come with the boilerplate (and the bootstrap) and required WordPress styles, so layout is up to you.
 
 In functions.php I have registered two custom menus, activated post thumbnails, registered the sidebar.
 
@@ -51,3 +51,7 @@ License
 -------
 
 The Unlicense (aka: public domain) http://unlicense.org
+
+Made by
+-------
+Alessandro Muraro - [alexmuraro.me](http://www.alexmuraro.me)
