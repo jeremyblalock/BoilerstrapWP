@@ -1,7 +1,7 @@
 BoilerstrapWP
 ===============================
 
-This is a naked Wordpress theme that can use to crate your own theme. By default it's based upon [HTML5 Boilerplate](http://html5boilerplate.com/). If you prefer to base it upon [Twitter Bootstrap](http://twitter.github.com/bootstrap/), you just need to comment/uncomment a few lines in styles.scss.
+This is a naked Wordpress theme that you can use to create your own theme. By default it's based upon [HTML5 Boilerplate](http://html5boilerplate.com/). If you prefer to base it upon [Twitter Bootstrap](http://twitter.github.com/bootstrap/), you just need to comment/uncomment a few lines in styles.scss.
 This naked theme is built upon [HTML5 Boilerplate for Wordpress](https://github.com/zencoder/html5-boilerplate-for-wordpress). It started as a fork, then as I was diverging from it more and more I decided to create a dedicated repository. Credits for most of the php code here doesn't go to me (Alex Muraro) but rather to the original theme's creator. This theme is built on the  by Paul Irish and Divya Manian and also contain Twitter Bootstrap css if you'd like to use it.
 
 **BoilerstrapWP** uses [SASS](http://sass-lang.com/) for the stylesheets. There is a styles.scss file that takes care of importing the files it needs.
