@@ -51,3 +51,7 @@ License
 -------
 
 The Unlicense (aka: public domain) http://unlicense.org
+
+Made by
+-------
+Alessandro Muraro - [alexmuraro.me](http://www.alexmuraro.me)
