@@ -1,4 +1,4 @@
-boilerpress
+BoilerstrapWP
 ===========
 
-A naked opinionated wordpress theme integrated with HTML5 boilerplate, plus some goodies
+A naked opinionated wordpress theme integrated with HTML5 boilerplate and Twitter Bootstrap
