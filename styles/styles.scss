@@ -8,6 +8,15 @@ _layout.css is used for your css.
 If you use _html5b.scss, _layout.scss is already referenced in there, at line 624, so you don't need to do anything beside adding your styles in layout.scss.
 ==================*/
 
+// Use the following mixin to use the IEbox model
+// Usage: @include iebox within your classes
+
+@mixin iebox {
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 @import "html5b";
 
 // @import "bootstrap";
@@ -69,16 +78,6 @@ If you use _html5b.scss, _layout.scss is already referenced in there, at line 62
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-// Use the following mixin to use the IEbox model
-// Usage: @import iebox within your classes
-
-@mixin iebox {
-	-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 
 
 
