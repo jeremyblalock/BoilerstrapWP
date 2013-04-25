@@ -19,9 +19,7 @@
   <!-- Javascript at the bottom for fast page loading -->
 
   <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-  <script src="http//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="<?php echo $GLOBALS["TEMPLATE_RELATIVE_URL"] ?>js/vendor/jquery-1-9-1.min.js"></script>')</script>
-
+  <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/vendor/jquery-1.9.1.min.js") ?>
   <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/vendor/bootstrap.min.js") ?>
   <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/plugins.js") ?>
   <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/main.js") ?>

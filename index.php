@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div class="row-fluid">
+<div class="row">
   <div class="span8">
   <?php if (have_posts()) { ?>
     <?php while (have_posts()) : the_post(); ?>
