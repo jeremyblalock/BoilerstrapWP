@@ -12,10 +12,7 @@ get_header(); ?>
 
     <h2>Search Results</h2>
 
-    <nav>
-      <div><?php next_posts_link('&laquo; Older Entries') ?></div>
-      <div><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-    </nav>
+    <?php get_template_part( 'nav' ); ?>
 
     <?php while (have_posts()) : the_post(); ?>
 
@@ -33,10 +30,7 @@ get_header(); ?>
 
     <?php endwhile; ?>
 
-    <nav>
-      <div><?php next_posts_link('&laquo; Older Entries') ?></div>
-      <div><?php previous_posts_link('Newer Entries &raquo;') ?></div>
-    </nav>
+  <?php get_template_part( 'nav' ); ?>
 
   <?php else : ?>
 
