@@ -14,7 +14,7 @@
         <!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
       </p>
   </footer>
-</div> <!--! end of #container -->
+</div> <!--! end of container -->
 
   <!-- Javascript at the bottom for fast page loading -->
 

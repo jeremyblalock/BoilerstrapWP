@@ -6,7 +6,8 @@
 
 get_header(); ?>
 
-  <div class="row" role="main">
+<div class="row">
+  <div class="span8">
 
   <?php if (have_posts()) : ?>
 
@@ -45,8 +46,10 @@ get_header(); ?>
 
   <?php endif; ?>
 
-  </div>
-
-<?php get_sidebar(); ?>
+  </div> <!-- end left column -->
+  <div class="span4">
+    <?php get_sidebar(); ?>
+  </div> <!-- end right column -->
+</div> <!-- end row -->
 
 <?php get_footer(); ?>

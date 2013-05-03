@@ -11,6 +11,7 @@ Template Name: Archives
 <?php get_header(); ?>
 
 <div class="row">
+  <div class="span8">
 
   <?php get_search_form(); ?>
 
@@ -28,8 +29,9 @@ Template Name: Archives
     </ul>
   </section>
 
-</div>
-
-<?php get_sidebar(); ?>
-
+  </div> <!-- end left column -->
+  <div class="span4">
+    <?php get_sidebar(); ?>
+  </div> <!-- end right column -->
+</div> <!-- end row -->
 <?php get_footer(); ?>

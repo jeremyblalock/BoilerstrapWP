@@ -24,8 +24,9 @@ get_header(); ?>
     <?php get_search_form(); ?>
 
   <?php } ?>
-</div>
-<div class="span4">
-  <?php get_sidebar(); ?>
-</div>
+  </div> <!-- end left column -->
+  <div class="span4">
+    <?php get_sidebar(); ?>
+  </div> <!-- end right column -->
+</div> <!-- end row -->
 <?php get_footer(); ?>

@@ -6,7 +6,8 @@
 
 get_header(); ?>
 
-<div class="row" role="main">
+<div class="row">
+  <div class="span8">
   
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <article class="post" id="post-<?php the_ID(); ?>">
@@ -24,8 +25,9 @@ get_header(); ?>
 
   <?php comments_template(); ?>
 
-</div>
-
-<?php get_sidebar(); ?>
-
+  </div> <!-- end left column -->
+  <div class="span4">
+    <?php get_sidebar(); ?>
+  </div> <!-- end right column -->
+</div> <!-- end row -->
 <?php get_footer(); ?>
