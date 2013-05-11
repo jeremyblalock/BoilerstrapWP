@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @package WordPress
+ * @subpackage BoilerstrapWP
+ */
+
+get_header(); ?>
+
+<div class="row">
+  <div class="span8">
+
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+	  <?php get_template_part( 'content', get_post_format() ); ?>
+
+	<?php endwhile; else: ?>
+
+	  <p>Sorry, no posts matched your criteria.</p>
+
+	<?php endif; ?>
+
+<<<<<<< HEAD
+	</div>
+	<div class="span4">
+		<?php get_sidebar(); ?>
+	</div>
+</div>
+=======
+  </div> <!-- end left column -->
+  <div class="span4">
+    <?php get_sidebar(); ?>
+  </div> <!-- end right column -->
+</div> <!-- end row -->
+>>>>>>> 924ce5014ed0a7bc21abd901faa0555ef6116f62
+
+<?php get_footer(); ?>

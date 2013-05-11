@@ -1,5 +1,5 @@
 
-<?php if (is_single()) { ?>
+<?php if (is_single()) { ?> <!-- if page is single do the following -->
 
     <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
         <header>
