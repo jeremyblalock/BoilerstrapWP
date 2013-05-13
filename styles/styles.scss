@@ -9,7 +9,7 @@ If you use _html5b.scss, _layout.scss is already referenced in there, at line 62
 ==================*/
 
 // Use the following mixin to use the IEbox model
-// Usage: @include iebox within your classes
+// Usage: @include iebox - within your classes
 
 @mixin iebox {
 	-moz-box-sizing: border-box;
